@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+/* ==================== */
+/* Nav */
+.link-font {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #242121;
+  /* list-style: none; */
+}
+
+.List-Container-Sub {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+nav {
+  background-color: #edede9;
+  position: relative;
+  margin-bottom: 6rem;
+  /* margin-top: 6rem; */
+}
+
+/* SLide */
+#Hero-Font-Container {
+  /* width: 100px;
+  height: 100px; */
+  animation-name: slide-right;
+  animation-duration: 4s;
+}
+/* ========= */
+#Hero-Font {
+  font-size: 5rem;
+  font-family: "Roboto", sans-serif;
+
+  /* ANimation */
+  /* margin-left: 400px; */
+}
+
+@keyframes slide-right {
+  25% {
+    margin-left: -1000px;
+  }
+}
+
+#Hero-Sub-Font {
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+}
+#Hero-photo {
+  width: 100%;
+  border-radius: 10px;
+}
+.Hero-Main-Container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#Hero-Font-Container {
+  align-self: center;
+}
+#Order-Button {
+  color: #fff;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  background-color: #d5bdaf;
+  padding: 0.5rem;
+  border-radius: 5px;
+  position: absolute;
+  margin-top: -143px;
+  margin-left: 213px;
+}
+#Order-Button:hover {
+  background-color: #242121;
+}
+
+/* ==================== */
+/* Main */
+
+main {
+  margin-bottom: 6rem;
+}
+
+#About-Main-Container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  border-bottom: 0.1rem solid #242121;
+}
+
+.About-Sub-Font-1 {
+  font-size: 2rem;
+  /* font-style: initial; */
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  margin-left: 4rem;
+}
+.About-Sub-Font-2 {
+  font-size: 3rem;
+  padding: 2rem;
+}
+.About-Sub-Title {
+  align-self: center;
+}
+
+/* Article */
+.Menu-Sub-Title-FOnt-1 {
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.Menu-Sub-Title-FOnt-2 {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+}
+.Menu-Container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 6rem;
+}
+
+.Menu-photo-1 {
+  width: 666px;
+  height: 721px;
+  border-radius: 5px;
+}
+.Menu-photo-2 {
+  width: 100%;
+  /* width: 565px;
+  height: 489px; */
+  border-radius: 5px;
+  /* margin: 380px 0 0 auto; */
+  /* padding: 5rem; */
+}
+.Main-Menu-Sub-Container {
+  align-self: center;
+}
+
+.Main-Menu-Container {
+  background-color: #edede9;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  /* display: flex; */
+
+  margin-bottom: 6rem;
+}
+.Menu-Sub-Title-Font-3 {
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.Menu-Sub-Title-Font-4 {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+}
+.Menu-Sub-Title-Font-5 {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+}
+.Sub-Gallery {
+  text-align: center;
+}
+.Gallery-Font-Titile {
+  font-size: 8rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+}
+.Gallery-Font-Sub-Font {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  /* font-weight: 400; */
+}
+.Sub-Gallery-Button {
+  padding: 2rem;
+  font-size: 2rem;
+  color: #242121;
+  border-radius: 5px;
+  background-color: #d5bdaf;
+  margin-bottom: 6rem;
+}
+.Sub-Gallery-Button:hover {
+  color: #fff;
+}
+.Gallery-Photo-Client {
+  width: 100%;
+  align-self: center;
+  border-radius: 5px;
+}
+
+.Gallery-Sub-Photo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.Gallery-Photo {
+  margin-bottom: 6rem;
+}
+
+/* COntacts */
+.Contacts-Main {
+  background-color: #ced4da;
+}
+.Contact-Photo-Box {
+  display: flex;
+  justify-content: center;
+}
+.Contacts-Photo {
+  /* width: 100%; */
+  width: 400px;
+  height: 400px;
+  border-radius: 224px;
+}
+.Contacts-font {
+  font-size: 8rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+.Contacts-Font-Schedule {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+}
+
+.Contacts-Font-sub {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ============== */
+.Icon-Button {
+  border: none;
+}
+
+.Icon-Container {
+  display: none;
+}
+.Menu-icon {
+  background: none;
+  height: 40px;
+  width: 40px;
+}
+.Close-icon {
+  background: none;
+  height: 40px;
+  width: 40px;
+}
+
+.hidden {
+  display: none;
+}
+/* 
+.Menu-icon {
+  background: none;
+  height: 50px;
+  width: 50px;
+}
+.Close-icon {
+
+  background: none;
+  height: 50px;
+  width: 50px;
+}
+
+.hidden {
+  display: none;
+} */

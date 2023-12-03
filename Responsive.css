@@ -1,0 +1,285 @@
+/* 1383px */
+@media (max-width: 1383px) {
+  #Hero-Font {
+    font-size: 4.5rem;
+  }
+  #Hero-Sub-Font {
+    font-size: 2.8rem;
+  }
+}
+
+/* ============ */
+/* 1325px */
+@media (max-width: 1325px) {
+  #Order-Button {
+    margin-top: -100px;
+  }
+}
+
+/* ============ */
+/* 1245px */
+@media (max-width: 1245px) {
+  #Hero-Font {
+    font-size: 4.1rem;
+  }
+  .About-Sub-Font-1 {
+    font-size: 3rem;
+  }
+  .About-Sub-Font-2 {
+    font-size: 2.5rem;
+  }
+  .Menu-Sub-Title-FOnt-1 {
+    font-size: 3.5rem;
+  }
+  .Menu-Sub-Title-FOnt-2 {
+    font-size: 2.5rem;
+  }
+}
+
+/* ============ */
+
+/* 1134px */
+@media (max-width: 1134px) {
+  #Hero-Font {
+    font-size: 3.8rem;
+  }
+}
+/* ============ */
+
+/* 1051px */
+@media (max-width: 1051px) {
+  #Hero-Font {
+    font-size: 3.4rem;
+  }
+}
+/* =========================== */
+
+@media (max-width: 999px) {
+  #Hero-Font {
+    font-size: 3rem;
+  }
+  #Hero-Sub-Font {
+    font-size: 2rem;
+  }
+  #Order-Button {
+    margin-top: -61px;
+  }
+  .Icon-Container {
+    display: block;
+  }
+  .Navigation-Sub-Box {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: flex-end;
+    gap: 30rem;
+
+    padding: 2rem;
+  }
+  .List-Container-Sub {
+    /* display: none; */
+    flex-direction: column;
+    justify-content: center;
+  }
+  .link-font {
+    font-size: 4rem;
+    font-family: "Roboto", sans-serif;
+  }
+  .Menu-Sub-Title-FOnt-1 {
+    font-size: 4rem;
+  }
+  .Menu-Sub-Title-FOnt-2 {
+    font-size: 2rem;
+  }
+  .Menu-photo-1 {
+    width: 100%;
+  }
+  .Menu-Sub-Title-Font-3 {
+    font-size: 4rem;
+  }
+  .Menu-Sub-Title-Font-5 {
+    font-size: 2rem;
+  }
+  .Menu-photo-2 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 850px) {
+  #Hero-Font {
+    font-size: 6rem;
+  }
+  #Hero-Sub-Font {
+    font-size: 4rem;
+    font-weight: 200;
+  }
+  #Order-Button {
+    margin-top: -256px;
+    margin-left: 368px;
+    font-size: 4rem;
+  }
+  .Hero-Main-Container {
+    grid-template-columns: 1fr;
+  }
+  #About-Main-Container {
+    grid-template-columns: 1fr;
+  }
+  .About-Sub-Font-1 {
+    font-size: 4rem;
+  }
+  .About-Sub-Font-2 {
+    font-size: 3rem;
+  }
+  .Menu-Container {
+    grid-template-columns: 1fr;
+  }
+  .Menu-Sub-Title-FOnt-1 {
+    font-size: 4rem;
+  }
+  .Menu-Sub-Title-FOnt-2 {
+    font-size: 3rem;
+  }
+  .Main-Menu-Container {
+    grid-template-columns: 1fr;
+  }
+  .Gallery-Sub-Photo {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 717px) {
+  #Order-Button {
+    margin-top: -256px;
+    margin-left: 280px;
+    font-size: 4rem;
+  }
+}
+@media (max-width: 624px) {
+  #Hero-Font {
+    font-size: 4.5rem;
+  }
+  #Hero-Sub-Font {
+    font-size: 3.5rem;
+  }
+  #Order-Button {
+    margin-top: -181px;
+    margin-left: 231px;
+    font-size: 4rem;
+  }
+  .About-Sub-Font-1 {
+    font-size: 3.5rem;
+  }
+  .About-Sub-Font-2 {
+    font-size: 2rem;
+  }
+  .Menu-Sub-Title-FOnt-1 {
+    font-size: 3.5rem;
+  }
+  .Menu-Sub-Title-FOnt-2 {
+    font-size: 2rem;
+  }
+  .Menu-Sub-Title-Font-3 {
+    font-size: 3.5rem;
+  }
+  Menu-Sub-Title-Font-5 {
+    font-size: 2rem;
+  }
+  .Contacts-Font-Schedule {
+    grid-template-columns: 1fr;
+  }
+  .Navigation-Sub-Box {
+    gap: 15rem;
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 488px) {
+  .Navigation-Sub-Box {
+    gap: 8rem;
+    padding: 2rem;
+  }
+  #Hero-Font {
+    font-size: 3rem;
+  }
+  #Hero-Sub-Font {
+    font-size: 2rem;
+  }
+  #Order-Button {
+    margin-top: -150px;
+    margin-left: 177px;
+    font-size: 4rem;
+  }
+  .About-Sub-Font-1 {
+    font-size: 2rem;
+  }
+  .About-Sub-Font-2 {
+    font-size: 1.5rem;
+  }
+  .Menu-Sub-Title-FOnt-1 {
+    font-size: 3rem;
+  }
+  .Menu-Sub-Title-FOnt-2 {
+    font-size: 1.5rem;
+  }
+  .Menu-Sub-Title-Font-3 {
+    font-size: 3rem;
+  }
+  .Menu-Sub-Title-Font-5 {
+    font-size: 1.5rem;
+  }
+  .Gallery-Font-Sub-Font {
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+  }
+  .Sub-Gallery-Button {
+    padding: 2rem;
+    font-size: 1rem;
+    color: #242121;
+    border-radius: 5px;
+    background-color: #d5bdaf;
+    margin-bottom: 6rem;
+  }
+  .Contacts-font {
+    font-size: 3rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    text-align: center;
+  }
+}
+/* Mobile */
+/* 999px 
+@media (max-width: 999px) {
+  nav {
+    position: relative;
+  }
+  .Navigation-Sub-Box {
+    display: flex;
+    justify-content: space-between;*/
+/* background-color: aqua; 
+  }
+  .Icon-Container {
+    justify-content: flex-end;
+  }*/
+/* .Close-icon {
+    justify-content: flex-end;
+  }
+  .Menu-icon {
+    justify-content: flex-end;
+  } 
+  .link-font {
+    font-size: 4rem;
+    font-family: "Roboto", sans-serif;
+  }*/
+/*.List-Container-Sub {
+   display: none; 
+    flex-direction: column;
+    gap: 4rem;*/
+/* width: 100%; 
+    height: 50vh;
+    padding: 4rem;
+  }*/
+/*.Icon-Container {
+    display: block;
+     position: absolute;
+    margin-top: -558px;
+    margin-left: 903px;
+  }
+} */
