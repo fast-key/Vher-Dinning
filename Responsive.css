@@ -79,6 +79,8 @@
     /* display: none; */
     flex-direction: column;
     justify-content: center;
+    height: 100vh;
+    width: 100%;
   }
   .link-font {
     font-size: 4rem;
